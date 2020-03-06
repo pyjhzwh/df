@@ -28,10 +28,10 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 description = "Training and evaluating DF model for closed-world scenario on non-defended dataset"
 
-print description
+print(description)
 # Training the DF model
 NB_EPOCH = 30   # Number of training epoch
-print "Number of Epoch: ", NB_EPOCH
+print("Number of Epoch: ", NB_EPOCH)
 BATCH_SIZE = 128 # Batch size
 VERBOSE = 2 # Output display mode
 LENGTH = 5000 # Packet sequence length
